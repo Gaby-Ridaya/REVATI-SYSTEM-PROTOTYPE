@@ -1,0 +1,27 @@
+{
+  "name": "revati",
+  "version": "1.0.0",
+  "description": "Prototype exploratoire d'interface orbitale cyclique",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"node server.js\" \"vite\"",
+    "server": "node server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "d3": "^7.9.0",
+    "express": "^5.2.1",
+    "framer-motion": "^12.38.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "vite": "^8.0.13"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

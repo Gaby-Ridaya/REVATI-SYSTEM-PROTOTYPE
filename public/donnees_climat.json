@@ -1,0 +1,30 @@
+{
+  "source": "Données climatiques complètes — 2025 (phytoplancton, cétacés, déforestation, économie)",
+  "annee": 2025,
+  "domaine": "climat",
+  "scenario": null,
+  "activations": {
+    "Biodiversité": 0.769,
+    "Homéostasie": 0.964,
+    "Chaleur": 0.889,
+    "Océan": 0.947,
+    "Seuil": 0.926,
+    "Effondrement": 0.87,
+    "Migration": 0.858,
+    "Forêt": 0.163,
+    "Sol": 0.748,
+    "CO₂": 0.139
+  },
+  "notes": {
+    "Biodiversité": "Baleines 2025: 1.50M (−69% depuis 1900)",
+    "Homéostasie": "Chlorophylle-a 2025: 0.218 mg/m³ (−48% depuis 1900, NASA)",
+    "Chaleur": "Anomalie SST 2025: +1.02°C",
+    "Océan": "Pêche marine 2025: 90.0M tonnes/an",
+    "Seuil": "Combinaison SST + déclin phytoplancton (2025)",
+    "Effondrement": "Biodiversité × phytoplancton × chaleur (2025)",
+    "Migration": "Pression baleines + pêche intensive (2025)",
+    "Forêt": "Déforestation Amazonie 2025: 5,796 km² (PRODES/INPE)",
+    "Sol": "Dégradation sols liée déforestation Amazonie 2025: 5,796 km² | Gran Chaco 2024: 149,649 ha (Greenpeace)",
+    "CO₂": "Carbone libéré déforestation Amazonie 2025: 5,796 km²"
+  }
+}
