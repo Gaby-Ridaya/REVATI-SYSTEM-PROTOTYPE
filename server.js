@@ -44,4 +44,6 @@ app.post('/api/oracle', async (req, res) => {
   }
 })
 
+app.use((req, res) => res.status(404).end())
+
 app.listen(3001, () => console.log('Serveur oracle → http://localhost:3001'))
