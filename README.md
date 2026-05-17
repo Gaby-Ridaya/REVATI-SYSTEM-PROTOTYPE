@@ -1,113 +1,115 @@
-# REVATI — SYSTEME PROTOTYPE
+[Français](README.fr.md)
 
-> Prototype exploratoire d'une interface numérique qui distribue l'information de façon cyclique, non linéaire.
+# REVATI — SYSTEM PROTOTYPE
 
-![Revati — roue orbitale](Revati.png)
+> Exploratory prototype of a digital interface that distributes information in a cyclical, non-linear way.
 
----
-
-## Le problème
-
-La quasi-totalité des interfaces numériques actuelles repose sur une logique linéaire :
-
-- début → fin
-- cause → effet
-- navigation hiérarchique
-- progression séquentielle
-- menu → sous-menu → résultat
-
-Cette logique est héritée des premières interfaces textuelles. Elle convient bien aux flux de travail simples. Mais elle pourrait être inadaptée à la façon dont la pensée, la mémoire, et les systèmes vivants fonctionnent.
-
-La pensée ne va pas d'un point A à un point B. Elle revient. Elle associe. Elle résonne. Elle transforme ce qu'elle a déjà traversé.
+![Revati — orbital wheel](Revati.png)
 
 ---
 
-## L'idée centrale
+## The Problem
 
-**Revati explore une autre logique : la distribution cyclique de l'information.**
+Almost all digital interfaces today are built on linear logic:
 
-Au lieu de ranger l'information dans une hiérarchie, Revati la distribue dans un espace orbital. Les concepts gravitent. Ils se rapprochent par affinité. Ils forment des connexions qui naissent de l'usage, pas de la programmation.
+- start → end
+- cause → effect
+- hierarchical navigation
+- sequential progression
+- menu → submenu → result
 
-La navigation n'est pas un chemin prédéfini. C'est un champ de résonances.
+This logic is inherited from the earliest text-based interfaces. It works well for simple workflows. But it might be poorly suited to the way thought, memory, and living systems actually work.
 
-Ce que ça change :
+Thought does not move from point A to point B. It returns. It associates. It resonates. It transforms what it has already passed through.
 
-| Système linéaire | Revati cyclique |
+---
+
+## The Central Idea
+
+**Revati explores a different logic: cyclical distribution of information.**
+
+Instead of filing information into a hierarchy, Revati distributes it across an orbital space. Concepts gravitate. They draw closer by affinity. They form connections that arise from use, not from programming.
+
+Navigation is not a predefined path. It is a field of resonances.
+
+What changes:
+
+| Linear system | Cyclical Revati |
 |---|---|
-| L'information est classée | L'information gravite |
-| La relation est définie à l'avance | La relation émerge de l'usage |
-| La mémoire est externe | La mémoire est vivante et personnelle |
-| L'utilisateur suit un chemin | L'utilisateur navigue dans un champ |
-| L'état est figé | L'état évolue en permanence |
+| Information is classified | Information gravitates |
+| Relations are defined in advance | Relations emerge from use |
+| Memory is external | Memory is living and personal |
+| The user follows a path | The user navigates a field |
+| State is fixed | State evolves continuously |
 
 ---
 
-## Ce que fait Revati
+## What Revati Does
 
-Revati est une roue orbitale interactive. 17 nœuds gravitent autour d'un centre selon leurs propres vitesses et directions. Certains sont rétrogrades. Tous sont en mouvement.
+Revati is an interactive orbital wheel. 17 nodes orbit a center at their own speeds and directions. Some are retrograde. All are in motion.
 
-![Interface Revati](interface-revati.png)
+![Revati interface](interface-revati.png)
 
-**La matrice mémoire** accumule les résonances entre nœuds à chaque interaction. Le mécanisme d'émergence est programmé — mais lesquelles apparaissent dépend uniquement de l'usage réel de chaque personne. Deux utilisateurs avec les mêmes nœuds arrivent à des cartes différentes.
+**The memory matrix** accumulates resonances between nodes with each interaction. The emergence mechanism is programmed — but which connections appear depends entirely on each person's actual use. Two users with the same nodes arrive at different maps.
 
-**L'oracle IA** (Claude) reçoit une intention en langage naturel, active les nœuds correspondants, et laisse la propagation se faire via la matrice. Le résultat n'est pas une réponse — c'est un état.
-
----
-
-## Domaines disponibles
-
-Revati fonctionne avec n'importe quel ensemble de 17 concepts. Quatre domaines sont inclus :
-
-- **Psychologie** — les 17 états intérieurs (Racine → Sang → Désir → ... → Étoile)
-- **Climat** — les cycles du système terrestre (Eau, Forêt, Océan, Seuil, Migration...)
-- **Algorithmes** — les paradigmes fondamentaux (Récursion, Graphe, Émergence, Réseau...)
-- **Philosophie** — les tensions conceptuelles (Être, Devenir, Sujet, Vide, Liberté...)
-
-Des données externes peuvent être chargées via un fichier JSON local. Aucune donnée ne passe par un serveur.
+**The AI oracle** (Claude) receives an intention in natural language, activates the corresponding nodes, and lets propagation unfold through the matrix. The result is not an answer — it is a state.
 
 ---
 
-## Stack technique
+## Available Domains
+
+Revati works with any set of 17 concepts. Four domains are included:
+
+- **Psychology** — 17 inner states (Root → Blood → Desire → ... → Star)
+- **Climate** — cycles of the Earth system (Water, Forest, Ocean, Threshold, Migration...)
+- **Algorithms** — fundamental paradigms (Recursion, Graph, Emergence, Network...)
+- **Philosophy** — conceptual tensions (Being, Becoming, Subject, Void, Freedom...)
+
+External data can be loaded via a local JSON file. No data passes through a server.
+
+---
+
+## Technical Stack
 
 - React 19 + Vite
-- SVG (roue orbitale, connexions bezier, animations)
+- SVG (orbital wheel, bezier connections, animations)
 - D3.js
 - Framer Motion
-- Claude API (Haiku) — pour l'oracle IA
+- Claude API (Haiku) — for the AI oracle
 
 ---
 
-## Démarrer
+## Getting Started
 
 ```bash
-git clone https://github.com/votre-repo/revati
+git clone https://github.com/your-repo/revati
 cd revati
 npm install
 ```
 
-Créer un fichier `.env.local` :
+Create a `.env.local` file:
 
 ```
-ANTHROPIC_API_KEY=votre_clé_claude
+ANTHROPIC_API_KEY=your_claude_key
 ```
 
-Lancer :
+Run:
 
 ```bash
 npm run dev
 ```
 
-La clé API reste côté serveur — elle n'est jamais exposée dans le navigateur.
+The API key stays server-side — it is never exposed in the browser.
 
 ---
 
-## Charger ses propres données
+## Loading Your Own Data
 
-Revati accepte un fichier JSON local pour alimenter les nœuds depuis une source externe :
+Revati accepts a local JSON file to feed nodes from an external source:
 
 ```json
 {
-  "source": "Nom de votre étude",
+  "source": "Name of your dataset",
   "domaine": "climat",
   "activations": {
     "Forêt": 0.85,
@@ -117,7 +119,7 @@ Revati accepte un fichier JSON local pour alimenter les nœuds depuis une source
 }
 ```
 
-Les valeurs sont entre `0.0` (inactif) et `1.0` (maximum). Un script Python est fourni pour les données climatiques :
+Values range from `0.0` (inactive) to `1.0` (maximum). A Python script is provided as a reference for climate data:
 
 ```bash
 python3 scripts/export_vers_revati.py
@@ -125,51 +127,51 @@ python3 scripts/export_vers_revati.py
 
 ---
 
-## Ce que Revati n'est pas
+## What Revati Is Not
 
-- Pas un moteur de recherche — elle résonne, elle ne cherche pas
-- Pas une base de données — elle accumule, elle n'indexe pas
-- Pas un dashboard — pas de métriques figées, des états vivants
-- Pas un outil de productivité linéaire
+- Not a search engine — it resonates, it does not search
+- Not a database — it accumulates, it does not index
+- Not a dashboard — no fixed metrics, only living states
+- Not a linear productivity tool
 
-**Revati ne progresse pas. Elle évolue.**
-
----
-
-## Potentiel
-
-Ce prototype explore un principe : si l'information était distribuée cycliquement plutôt que hiérarchiquement, l'utilisateur naviguerait dans un système vivant plutôt que de suivre un workflow.
-
-Directions à explorer : pensée complexe, recherche par résonance, cartographie d'états intérieurs, visualisation de systèmes non linéaires, pédagogie par association, exploration créative. Aucune de ces applications n'a encore été validée — c'est précisément ce que ce prototype invite à tester.
+**Revati does not progress. It evolves.**
 
 ---
 
-## Contribuer
+## Potential
 
-Le projet est ouvert. Les directions naturelles :
+This prototype explores a principle: if information were distributed cyclically rather than hierarchically, the user would navigate a living system rather than follow a workflow.
 
-- Nouveaux domaines de nœuds (musique, neurosciences, économie...)
-- Mode création — l'utilisateur définit ses propres nœuds
-- Branchement sur des données en temps réel
-- Export de la matrice mémoire
-- IA dialogue — Revati qui questionne en retour
+Directions to explore: complex thinking, resonance-based research, mapping inner states, visualizing non-linear systems, associative learning, creative exploration. None of these applications have been validated yet — that is precisely what this prototype invites people to test.
 
 ---
 
-## Ce que Revati ne sait pas encore sur elle-même
+## Contributing
 
-Revati repose sur des intuitions qui n'ont pas encore été testées.
+The project is open. Natural directions:
 
-Les seuils internes — à partir de quand une connexion émerge, à quelle vitesse la mémoire se forme — ont été choisis par observation, pas par modèle. Ils fonctionnent visuellement. Mais personne ne sait encore s'ils correspondent à quelque chose de réel dans la façon dont la pensée associative fonctionne.
-
-La question centrale reste ouverte :
-
-> **Est-ce que naviguer dans un espace cyclique et non linéaire change réellement la façon dont on pense, associe, et explore des idées ?**
-
-Pour y répondre, il faudrait des chercheurs en HCI (Human-Computer Interaction), en sciences cognitives, ou en systèmes complexes capables de concevoir des expériences et de confronter les paramètres à des modèles formels.
-
-Si vous travaillez dans ces domaines et que cette question vous intéresse, ce projet a besoin de vous.
+- New node domains (music, neuroscience, economics...)
+- Creation mode — the user defines their own nodes
+- Connecting to real-time data sources
+- Exporting the memory matrix
+- Dialogue AI — Revati questioning back
 
 ---
 
-*Revati — prototype exploratoire d'interface orbitale cyclique*
+## What Revati Does Not Yet Know About Itself
+
+Revati is built on intuitions that have not been tested.
+
+The internal thresholds — when a connection emerges, how fast memory forms — were chosen by observation, not by formal model. They work visually. But no one yet knows whether they correspond to anything real in the way associative thinking works.
+
+The central question remains open:
+
+> **Does navigating a cyclical, non-linear space actually change the way we think, associate, and explore ideas?**
+
+Answering this would require researchers in HCI (Human-Computer Interaction), cognitive science, or complex systems — people capable of designing experiments and confronting the parameters with formal models.
+
+If you work in these fields and this question interests you, this project needs you.
+
+---
+
+*Revati — exploratory prototype of a cyclical orbital interface*

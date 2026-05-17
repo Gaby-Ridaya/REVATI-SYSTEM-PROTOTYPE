@@ -23,6 +23,8 @@ if (!API_KEY) {
 const app = express()
 app.use(express.json())
 
+app.get('/favicon.ico', (req, res) => res.status(204).end())
+
 app.post('/api/oracle', async (req, res) => {
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
