@@ -1,24 +1,54 @@
-MIT License
+Revati Non-Commercial License
 
 Copyright (c) 2026 Gabriel Alba
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Ce dépôt contient un prototype de système expérimental — code source, architecture
+conceptuelle, et approche de design — constituant ensemble une œuvre originale.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+USAGES LIBRES
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Toute personne est libre d'utiliser, copier, modifier et redistribuer ce prototype
+et ses fichiers source, gratuitement, à condition que :
+
+  1. Cette notice de copyright soit incluse dans toutes les copies ou portions
+     substantielles du prototype.
+
+  2. L'usage soit non commercial (voir définition ci-dessous).
+
+DÉFINITION DE L'USAGE COMMERCIAL
+
+Est considéré comme usage commercial tout usage destiné à générer un revenu,
+directement ou indirectement, incluant sans s'y limiter :
+
+  - l'intégration dans un produit ou service vendu, loué ou monétisé
+  - l'utilisation dans le cadre d'une activité professionnelle à but lucratif
+  - la fourniture de services basés sur ce prototype contre rémunération
+  - l'utilisation par une entreprise dans un contexte opérationnel ou produit
+
+USAGE COMMERCIAL — LICENCE SÉPARÉE REQUISE
+
+Toute utilisation commerciale de ce prototype est soumise à l'obtention préalable
+d'une licence commerciale délivrée par l'auteur. Pour négocier un contrat,
+contactez : gaby.alba@outlook.fr
+
+PROTECTION DU CONCEPT ET DU SYSTÈME
+
+Le code source de ce prototype est protégé par le droit d'auteur. Au-delà du code,
+l'approche conceptuelle de Revati — interface cyclique, mémoire relationnelle,
+résonance entre nœuds — constitue une œuvre intellectuelle originale dont Gabriel
+Alba est l'auteur depuis 2026.
+
+Toute réimplémentation de ces principes dans un contexte commercial, sans accord
+explicite de l'auteur, est considérée comme une violation de l'esprit de cette
+licence et engage la responsabilité de son auteur.
+
+ABSENCE DE GARANTIE
+
+CE PROTOTYPE EST FOURNI "TEL QUEL", SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU
+IMPLICITE, NOTAMMENT SANS GARANTIE DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE
+PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS L'AUTEUR NE POURRA ÊTRE
+TENU RESPONSABLE DE TOUT DOMMAGE DIRECT OU INDIRECT LIÉ À L'UTILISATION DE CE
+PROTOTYPE.
 
 ---
 
